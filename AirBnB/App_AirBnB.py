@@ -80,7 +80,6 @@ prediction = exported_pipeline.predict(test_data)
 if len(target_encoder_location) > 5:
     prediction = target_encoder.inverse_transform(prediction)
 
-st.write(prediction[0])
 
 if 'float' in str(type(prediction[0])):
     st.write(round(prediction[0],2))

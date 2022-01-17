@@ -1,4 +1,7 @@
-
+--upgrade pip
 pandas
+requests
 scikit-learn
 streamlit
+feature-engine
+
